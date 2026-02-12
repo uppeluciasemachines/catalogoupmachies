@@ -145,6 +145,68 @@ export const products: Product[] = [
     discountPercent: 5,
 },
 
+{
+    id: '17',
+    name: 'Botão de Pulso',
+    price: 11.11,
+    installmentText:'10x de R$ xx,xx',
+    image: '/imagens/botao de pulso.webp',
+    discountPercent: 5,
+},
+
+{
+    id: '18',
+    name: 'Botão Liga e Desliga',
+    price: 11.11,
+    installmentText:'10x de R$ xx,xx',
+    image: '/imagens/botao liga desliga.webp',
+    discountPercent: 5,
+},
+
+{
+    id: '19',
+    name: 'Chave com Cilindro',
+    price: 11.11,
+    installmentText:'10x de R$ xx,xx',
+    image: '/imagens/chave com cilindro.jpg',
+    discountPercent: 5,
+},
+
+{
+    id: '20',
+    name: 'Fusivel',
+    price: 11.11,
+    installmentText:'10x de R$ xx,xx',
+    image: '/imagens/fusivel.jpg',
+    discountPercent: 5,
+},
+
+{
+    id: '21',
+    name: 'Micro Switch',
+    price: 11.11,
+    installmentText:'10x de R$ xx,xx',
+    image: '/imagens/micro switch.webp',
+    discountPercent: 5,
+},
+
+{
+    id: '22',
+    name: 'Tomada Macho',
+    price: 11.11,
+    installmentText:'10x de R$ xx,xx',
+    image: '/imagens/tomada femia.webp',
+    discountPercent: 5,
+},
+
+{
+    id: '23',
+    name: 'Tomada Fêmea',
+    price: 11.11,
+    installmentText:'10 de R$ xx,xx',
+    image: '/imagens/tomada femia02.webp',
+    discountPercent: 5,
+},
 
 ]
     

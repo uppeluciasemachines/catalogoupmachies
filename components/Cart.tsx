@@ -27,7 +27,7 @@ export function Cart() {
     const fullMessage = `Ola! Gostaria de fazer o pedido:\n\n${message}\n\n*Total: R$ ${total.toFixed(2).replace(".", ",")}*`
 
     // Substitua pelo numero do WhatsApp da loja
-    const phone = "5500000000000"
+    const phone = "558694083920"
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(fullMessage)}`
     window.open(url, "_blank")
   }

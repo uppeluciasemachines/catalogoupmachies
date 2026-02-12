@@ -4,8 +4,8 @@
 // Abre uma conversa direta com o numero da loja ao clicar
 export function WhatsAppButton() {
   // Substitua pelo numero real da loja com DDI + DDD (ex: 5511999999999)
-  const phone = "5500000000000"
-  const message = "Ola! Vim pelo catalogo e gostaria de mais informacoes."
+  const phone = "558694083920"
+  const message = "Ola! Vim pelo catalogo de peças da Up Machines e gostaria de mais informacoes."
 
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
 
