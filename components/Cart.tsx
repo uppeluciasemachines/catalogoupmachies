@@ -24,7 +24,7 @@ export function Cart() {
       )
       .join("\n")
 
-    const fullMessage = `Ola! Gostaria de fazer o pedido:\n\n${message}\n\n*Total: R$ ${total.toFixed(2).replace(".", ",")}*`
+    const fullMessage = `Olá! Gostaria de fazer o pedido:\n\n${message}\n\n*Total: R$ ${total.toFixed(2).replace(".", ",")}*`
 
     // Substitua pelo numero do WhatsApp da loja
     const phone = "558694083920"

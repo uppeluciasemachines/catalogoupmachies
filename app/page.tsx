@@ -24,13 +24,12 @@ export default function Home() {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
+          {/* Botao flutuante do WhatsApp no canto inferior direito */}
+        <WhatsAppButton />
       </main>
 
       {/* Painel lateral do carrinho (abre ao clicar no icone do carrinho) */}
       <Cart />
-
-      {/* Botao flutuante do WhatsApp no canto inferior direito */}
-      <WhatsAppButton />
     </>
   )
 }
