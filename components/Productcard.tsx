@@ -53,7 +53,7 @@ export function ProductCard({ product }: { product: Product }) {
           onClick={() => addToCart(product)}
           className="mt-3 w-full bg-green-500 text-white font-semibold py-2.5 rounded-lg transition-colors text-sm"
         >
-          Comprar Agora!
+          Mandar para o Carrinho
         </button>
       </div>
     </div>
